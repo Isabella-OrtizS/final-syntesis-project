@@ -13,7 +13,7 @@
   </head>
   <body>
     <header>
-      <h1 id="main-title">SYNTESIS FINAL PROJECT</h1>
+      <h1 id="main-title">=SYNTESIS FINAL PROJECT=</h1>
     </header>
 
     <div class="tab">
@@ -35,7 +35,6 @@
         class="tablinks"
         onclick="openTab(event, 'tab3')"
         id="tab3-button"
-        hola 
       >
         -General relativity-
       </button>
@@ -43,20 +42,26 @@
         class="tablinks"
         onclick="openTab(event, 'tab4')"
         id="tab4-button"
-      >
-        -Travels in the time in physics-
+      
+        >
+        -Lorantze and travel in time -
       </button>
-    </div>
+      <button
+        class="tablinks"
+        onclick="openTab(event, 'tab4')"
+        id="tab5-button"
+  >
 
     <!-- Tab content -->
     <div id="tab1" class="tabcontent"></div>
     <div id="tab2" class="tabcontent"></div>
     <div id="tab3" class="tabcontent"></div>
     <div id="tab4" class="tabcontent"></div>
+    
     <script src="js/tabs.js"></script>
 
     <script>
-      const texts = ["tab1", "tab2", "tab3"];
+      const texts = ["tab1", "tab2", "tab3", "tab4"];
       for (let i = 0; i < texts.length; i++) {
         $("#" + texts[i] + "-button").click(function () {
           $("#" + texts[i]).load("html/" + texts[i] + ".html");
@@ -70,8 +75,12 @@
 
     <footer>
       <section>
-        <a href="#main-title"> Go up</a> <br />
-        <a href="mailto:example@gmail.com">Contact us</a>
+        <a href="#main-title"> Relativities </a> <br />
+        <a
+          href=
+"
+          >Contact us:
+        </a>
       </section>
       <br />
       Creative commons licence
