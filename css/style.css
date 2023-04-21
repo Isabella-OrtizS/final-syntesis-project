@@ -1,15 +1,13 @@
+body {
+  font-family: cursive;
+  margin: 0;
+  background-color: rgb(189, 233, 253);
+}
 html {
   font-family: cursive;
 }
-
-body {
-  margin: 0;
-  background-color: #ffffff;
-  background-color: rgb(189, 233, 253);
-  font-family: cursive;
-}
-
 header h1 {
+  font-family: cursive;
   background-color: rgb(180, 231, 255);
   color: rgb(8, 140, 173);
   padding: 3rem 2rem;
@@ -19,6 +17,7 @@ header h1 {
 }
 
 h2 {
+  font-family: cursive;
   font-size: 2.5rem;
   width: 70%;
   margin-left: auto;
@@ -26,6 +25,7 @@ h2 {
 }
 
 h3 {
+  font-family: cursive;
   font-size: 2rem;
   width: 70%;
   margin-left: auto;
@@ -57,30 +57,13 @@ img {
 
 body p {
   transition: all 0.3s ease;
-  background-color: #fff;
   margin: 1rem 0;
+  border-radius: 0.5rem;
   padding: 1rem 1rem;
+  cursor: pointer;
   width: 70%;
   margin-left: auto;
   margin-right: auto;
-}
-
-#viaje {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  filter: drop-shadow(10px 10px 10px rgb(190, 120, 255));
-}
-
-#ortiz {
-  display: block;
-  margin: auto;
-  filter: drop-shadow(20px 20px 20px rgb(126, 164, 235));
-}
-#andre {
-  display: block;
-  margin: auto;
-  filter: drop-shadow(20px 20px 20px rgb(22, 15, 116));
 }
 
 footer {
@@ -103,6 +86,36 @@ footer a {
 
 footer a:hover {
   color: cornflowerblue;
+}
+
+#viaje {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  filter: drop-shadow(10px 10px 10px rgb(190, 120, 255));
+}
+#loran {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  filter: drop-shadow(10px 10px 10px rgb(120, 217, 255));
+}
+#cohet {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  filter: drop-shadow(10px 10px 10px rgb(236, 123, 78));
+}
+
+#ortiz {
+  display: block;
+  margin: auto;
+  filter: drop-shadow(20px 20px 20px rgb(126, 164, 235));
+}
+#andre {
+  display: block;
+  margin: auto;
+  filter: drop-shadow(20px 20px 20px rgb(22, 15, 116));
 }
 
 /* Go from zero to full opacity */
@@ -142,12 +155,12 @@ footer a:hover {
 
 /* Change background color of buttons on hover */
 .tab button:hover {
-  background-color: #ddd;
+  background-color: rgb(70, 196, 255);
 }
 
 /* Create an active/current tablink class */
 .tab button.active {
-  background-color: #ccc;
+  background-color: rgb(50, 180, 240);
 }
 
 /* Style the tab content */
